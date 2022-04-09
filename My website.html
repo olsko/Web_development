@@ -3,53 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Oliwer's website</title>
     <style>
-        main {
+        a {
+            color: #CCFFFF;
+        }
+        body {
             color: white;
-    }
+            margin: 0;
+        }
         p {
             align: justify;
         }
         img {
             border: 5px solid #555;
             float: left;
-            width: 200px    ;
+            width: 200px;
+            margin: 2mm;
         }
-        #outercontainer {
+        .outercontainer {
             border: solid black 4px;
             border-radius: 1rem;
             height: 205px;
             padding: 1px;
-            margin-bottom: 1rem;
-            margin-top: 1rem;
+            margin: 1rem;
+        }
+        .header {
+            background: #66CC66;
+            margin: 0;
         }
     </style>
 </head>
 <body style="background-color: rgb(0, 153, 255);">    
     <main>
-        <h1>Oliwer</h1>
-        <h2>About me</h2>
-        <p>My name is Oliwer Stryjewski. I'm 15 years old.</p>
-        <p>My hobbies:</p>
-        <ul>
+        <header class="header">
+            <a style="font-size: 80px;"href="C:\Users\olssk\Desktop\html\Html\My website.html">Olsko</a>
+            About
+        </header>
+        <div class="content">
+            <h2>About me</h2>
+            <p>My name is Oliwer Stryjewski. I'm 15 years old.</p>
+            <p>My hobbies:</p>
+            <ul>
             <li>Playing video games</li>
             <li>Cycling</li>
             <li>Coding</li>
-        </ul>
-        <h2>My projects</h2>
-        <div id="outercontainer">
-            <img src="My website.png">
-            <p>My website </p> 
-        </div>
-        <div id="outercontainer">
-            <img src="My website.png">
-            <p>My website </p> 
-        </div>
-        <div id="outercontainer">
-            <img src="My website.png">
-            <p>My website </p> 
+            </ul>
+            <h2>My projects</h2>
+            <div class="outercontainer">
+                <img alt="screenshot of this website" src="My website.png">
+                <p>My website </p> 
+            </div>
+            <div class="outercontainer">
+                <img src="My website.png">
+                <p>My website </p> 
+            </div>
+            <div class="outercontainer">
+                <img src="My website.png">
+                <p>My website </p> 
+            </div>  
         </div>
     </main>
 </body>

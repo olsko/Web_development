@@ -1,1 +1,4 @@
-document.getElementById("year").innerHTML = new Date().getFullYear();
+var date = new Date();
+var year =  date.getFullYear() + " ";
+setTimeout(1000)
+document.getElementById("currentYear").innerHTML = year;

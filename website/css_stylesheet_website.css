@@ -16,9 +16,17 @@
        footer{
             background-color: black;
             text-align: center;
-            bottom:0;
-            left:0;
-            right:0;
+        }
+        .site {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        .site-content {
+            flex: 1;
+        }
+        .logo {
+            font-size: 50px;
         }
         .outercontainer {
             border: solid black 4px;
@@ -28,9 +36,7 @@
             align-items: top;
             display: flex;
         }
-        .logo {
-            font-size: 50px;
-        }
+
         .social_media {
             font-size: 30px;
             padding: 3px;

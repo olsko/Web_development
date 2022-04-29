@@ -8,11 +8,15 @@
             text-decoration: none;
             color: inherit;  
         }
-       .header {
+       header {
             background: #029502;
             margin: 0;
             color: cyan;
        }
+       footer{
+            background-color: black;
+            text-align: center;
+        }
         .outercontainer {
             border: solid black 4px;
             border-radius: 1rem;

@@ -32,9 +32,6 @@
             font-size: 30px;
             padding: 3px;
         }
-        .center {
-            text-align: center;
-        }
         .container {  display: grid;
             grid-template-columns: 0.55fr 1fr;
             grid-template-rows: 1fr;
@@ -51,6 +48,7 @@
           .project_img { grid-area: First-cell; }
           
           .project_text { grid-area: another-cell; }
+          
           .container img {
             width: 500px;
           }

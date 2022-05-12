@@ -12,7 +12,7 @@
             color: inherit;  
         }
        header {
-            background: #029502;
+            background: #0e6b0e;
             margin: 0;
             color: cyan;
             font-size: 40px;
@@ -30,6 +30,9 @@
         .logo img {
             height: 50px;
             width: 1000px;
+        }
+        .nav a{
+            margin: 30px;
         }
         .social_media {
             font-size: 30px;
